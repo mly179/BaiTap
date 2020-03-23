@@ -3,10 +3,11 @@ using namespace std;
 int n, a[100];
 bool check[100];
 
-	void init(){
+void init(){
 	cin >> n;
 	for(int i=1;i<=n;i++){
 		a[i]=i;
+		check[i]=true;
 	}
 	
 }
@@ -25,7 +26,7 @@ void Try(int i){
 				display();
 			else 
 				Try(i+1);
-			check[j] = true;
+				check[j] = true;
 		}
 	}
 	
