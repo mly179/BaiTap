@@ -21,7 +21,8 @@ void Try(int i){
 	}
 }
 int main(){
-	n=3;
+	int n;
+	cin >> n;
 	init();
 	Try(1);
 	return 0;
