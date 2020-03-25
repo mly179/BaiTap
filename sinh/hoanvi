@@ -23,7 +23,9 @@ void display(){
 void gene () {
      int i; 
     for ( i=n;i>1;i--) {
-        if (a[i-1]<a[i]) break;
+        if (a[i-1]<a[i]) 
+        break;
+			
     }
     for (int j=n;j>=i;j--) {
         if (a[j]>a[i-1]) {
